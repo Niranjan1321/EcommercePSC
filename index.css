@@ -19,7 +19,17 @@
         /* gap: 0.5rem; */
         align-items: center;
     }
+
+    #tableID{
+        width: 90%;  
+    }
+
+    
+
+
 }
+
+
 
 
 #Navbar a{
