@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div id="Navbar">
+
+        <div><a href="index.html">Home</a></div>
+        <div><a href="appliedJobs.html">Applied Jobs</a></div>
+        <div><a href="bookmark.html">Bookmarks</a></div>
+        <div><a href="">Students</a></div>
+
+    </div>
+
+    <div id="Filter">
+
+        <select id="bySalary" onchange="filterSalary()">
+            <option value="none">none</option>
+            <option value="lessthen50000">Less then 50000</option>
+            <option value="lessthen70000">Less then 70000</option>
+        </select>
+
+        <select id="byRole" onchange="filterRole()">
+            <option value="fsd">Fullstack</option>
+            <option value="backend">backend</option>
+            <option value="frontend">frontend</option>
+        </select>
+
+        <select id="byName" onchange="filterName()">
+            <option value="asc">Ascending</option>
+            <option value="desc">Dscending</option>
+        </select>
+
+
+    </div>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Salary</th>
+                <th>Add to  BookMark</th>
+            </tr>
+        </thead>
+
+        <tbody id="tBody">
+
+        </tbody>
+
+    </table>
+
+    <script src="appliedJobs.js"></script>
+</body>
+</html>

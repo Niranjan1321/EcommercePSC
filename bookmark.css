@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+
+#Navbar{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 2px;
+    margin: 0px;
+    height: 35px;
+}
+
+#Navbar a{
+
+    text-decoration: none;
+    font-size: 30px;
+    color: teal;
+}
+
+th, td{
+
+    border: 1px solid #ddd;
+    padding: 15px;
+
+}
+
+table{
+
+    border:  none;
+    text-align:  left;
+    margin: auto;
+    margin-top: 50px;
+}
+
+th{
+
+    color: white;
+    background-color:  teal;
+}
+
