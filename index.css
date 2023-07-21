@@ -8,11 +8,18 @@
 
     display: flex;
     justify-content: space-evenly;
-     padding: 2px;
+     padding: 2rem 1em;
     background-color: aliceblue;
     width: 100%;
 }
 
+@media (max-width : 500px){
+    #Navbar{
+        flex-direction: column;
+        /* gap: 0.5rem; */
+        align-items: center;
+    }
+}
 
 
 #Navbar a{
